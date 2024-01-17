@@ -29,9 +29,10 @@ variable "dynamic_ingress_description" {
 }
 variable "dynamic_ingress_ports" {
   type    = list(any)
-  default = ["80"]
+  default = ["80", "22"]
 }
 variable "dynamic_ingress_cidr" {
   type    = list(any)
   default = ["0.0.0.0/0"]
 }
+
