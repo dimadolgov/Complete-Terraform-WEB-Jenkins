@@ -11,13 +11,16 @@
 
 
 ## Start Deployment
-'git clone https://github.com/dimadolgov/NICE.git
+git clone https://github.com/dimadolgov/NICE.git
+cd AWS_IaC
+Add your administrative credentials to "00-Provider" or to "aws configure"
+run terraform apply
+After the deployment finished you will see output "Web_Server_Public_IP" That will be our web server external IP
 
-
-Download ssh key from S3 nice-exam-s3-bucket
+go to Download ssh key from S3 nice-exam-s3-bucket
 download id
 open file and copy private key
 
 server ip external address add to junkins
-51.16.156.68
+
 
