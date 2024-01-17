@@ -1,4 +1,4 @@
-######################## Project TAG ########################
+######################## Main Project TAG ########################
 variable "project_name" {
   default = "NICE"
 }
@@ -15,7 +15,7 @@ variable "public_subnet_cidr" {
 ################## EC2 ##################
 variable "instance_type" {
   type    = string
-  default = "t3.micro"
+  default = "t3.nano"
 }
 variable "ami" {
   type    = string
