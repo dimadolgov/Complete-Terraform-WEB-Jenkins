@@ -65,7 +65,7 @@ This repository contains Terraform scripts for deploying infrastructure on AWS.
 
    Save and close Jenkins, Nothing to do there anymore | browse the job index.html if you wish
    
-9. 
+9. **
    
 
     
