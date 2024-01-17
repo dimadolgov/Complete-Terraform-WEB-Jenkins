@@ -10,3 +10,14 @@
     template.tpl
 
 
+## Start Deployment
+'git clone https://github.com/dimadolgov/NICE.git
+
+
+Download ssh key from S3 nice-exam-s3-bucket
+download id
+open file and copy private key
+
+server ip external address add to junkins
+51.16.156.68
+

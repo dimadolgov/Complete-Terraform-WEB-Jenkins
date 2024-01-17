@@ -9,7 +9,7 @@ sudo systemctl enable httpd
 sudo firewall-cmd --permanent --add-service=http
 sudo firewall-cmd --reload
 sudo chmod 777 /var/www/html
-sudo chmod 006 /var/www/html/index.html
+sudo chmod 777 /var/www/html/index.html
 
 
 # Create HTML file
