@@ -9,8 +9,6 @@ sudo systemctl enable httpd
 sudo firewall-cmd --permanent --add-service=http
 sudo firewall-cmd --reload
 sudo chmod 777 /var/www/html
-sudo chmod 777 /var/www/html/index.html
-
 
 # Create HTML file
 cat <<EOF > /var/www/html/index.html
@@ -22,3 +20,5 @@ cat <<EOF > /var/www/html/index.html
 </div>
 <div style="text-align: center;">&nbsp;</div>
 EOF
+
+sudo chmod 777 /var/www/html/index.html
