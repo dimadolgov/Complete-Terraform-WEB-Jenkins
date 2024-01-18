@@ -33,7 +33,7 @@ This Terraform project sets up a basic AWS infrastructure, including a VPC, Inte
 
 ## Usage
 
-1. Update the values in the `08-variables` file to match your project requirements.
+1. Update the values in the `00-Provider.tf` with your access_key and secret_key in AWS.
 2. Run `terraform init` to initialize your working directory.
 3. Run `terraform apply` to create the AWS infrastructure.
 4. Review the changes and confirm by entering "yes" when prompted.
