@@ -104,10 +104,31 @@ This repository contains Terraform scripts for deploying infrastructure on AWS.
     Jenkins will search for **"Hello World"** in Index.html ( If not found job will fail )
 
     Check the web site for end result
-    
-    Testing Code : ![image](https://github.com/dimadolgov/NICE/assets/90906120/1be47e1b-e534-481b-ac5a-0ad22b7a35f3)
 
-10. **Remove Evidence**
+    ## Testing Code in Jenkins
+
+
+    ```bash
+    echo "--------------- Testing Started----------------"
+    
+    index_file="./index.html"
+    if [ -e "$index_file" ]; then
+        # Check if the word "Hello World" exists in the file
+        if grep -q "Hello World" "$index_file"; then
+            echo "Test passed: 'Hello World' found in $index_file"
+            exit 0  # Exit with success status
+        else
+            echo "Test failed: 'Hello World' not found in $index_file"
+            exit 1  # Exit with failure status
+        fi
+    else
+        echo "Error: $index_file not found"
+        exit 1  # Exit with failure status
+    fi
+    
+    echo "--------------- Testing Ended ----------------"
+   
+10. **Destroy Environment**
     ```bash
     cd AWS_IaC
     ```
