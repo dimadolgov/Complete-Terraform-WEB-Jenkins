@@ -95,7 +95,7 @@ This repository contains Terraform scripts for deploying infrastructure on AWS.
 
    Test Configuration > Should get Success
 
-   Save and close Jenkins, Nothing to do there anymore | browse the job index.html if you wish
+   Save and close Jenkins, Nothing to do there anymore | Browse the job `Webserver_index.html` if you wish
    
 10. **Final CI\CD using Jenkins**
 
