@@ -1,7 +1,8 @@
-initialize.tf
-.terraform.lock.hcl
-terraform.exe
+# Ignore Terraform files
 terraform.tfstate.backup
 terraform.tfstate
-*.exe
 .terraform.tfstate.lock.info
+.terraform.lock.hcl
+
+# Ignore compiled executables
+*.exe
