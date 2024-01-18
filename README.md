@@ -103,8 +103,6 @@ This repository contains Terraform scripts for deploying infrastructure on AWS.
 
     Jenkins will search for **"Hello World"** in Index.html ( If not found job will fail )
 
-    Check the web site for end result
-
     ## Testing Code in Jenkins
 
 
