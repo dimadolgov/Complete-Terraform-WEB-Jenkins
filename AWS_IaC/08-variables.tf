@@ -25,7 +25,7 @@ variable "ami" {
 ################## Security Group ##################
 variable "dynamic_ingress_description" {
   type    = string
-  default = "Allow WEB from ANY"
+  default = "Allow from ANY"
 }
 variable "dynamic_ingress_ports" {
   type    = list(any)
