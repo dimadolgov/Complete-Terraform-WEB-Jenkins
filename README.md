@@ -101,6 +101,8 @@ This repository contains Terraform scripts for deploying infrastructure on AWS.
 
     Do some changes to Index.html located in root folder, Push and Commit :)
 
+    Jenkins will search for **"Hello World"** in Index.html ( If not found job will fail )
+
     Check the web site for end result
 
 10. **Remove Evidence**
