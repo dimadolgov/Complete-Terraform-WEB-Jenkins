@@ -31,15 +31,6 @@ This Terraform project sets up a basic AWS infrastructure, including a VPC, Inte
 - `template.tpl`
   - User data template used by the EC2 instance for initial configuration.
 
-## Usage
-
-1. Update the values in the `00-Provider.tf` with your access_key and secret_key in AWS.
-2. Run `terraform init` to initialize your working directory.
-3. Run `terraform apply` to create the AWS infrastructure.
-4. Review the changes and confirm by entering "yes" when prompted.
-5. Once the infrastructure is created, find the public IP of the EC2 instance in the Terraform outputs.
-
-
 
 # Terraform Deployment
 
