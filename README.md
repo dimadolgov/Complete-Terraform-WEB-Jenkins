@@ -106,11 +106,18 @@ This repository contains Terraform scripts for deploying infrastructure on AWS.
 
    Save and close Jenkins, Nothing to do there anymore | browse the job index.html if you wish
    
-10. **Final CI\CI using Jenkins**
+10. **Final CI\CD using Jenkins**
 
     Do some changes to Index.html located in root folder, Push and Commit :)
 
     Check the web site for end result
-   
+
+10. **Remove Evidence**
+    ```bash
+    cd AWS_IaC
+    ```
+    ```bash
+    terraform destroy
+    ```
 
     
