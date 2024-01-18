@@ -106,7 +106,11 @@ This repository contains Terraform scripts for deploying infrastructure on AWS.
 
    Save and close Jenkins, Nothing to do there anymore | browse the job index.html if you wish
    
-10. **Change Index.html located in root folder**
+10. **Final CI\CI using Jenkins**
+
+    Do some changes to Index.html located in root folder, Push and Commit :)
+
+    Check the web site for end result
    
 
     
