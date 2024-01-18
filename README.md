@@ -30,16 +30,7 @@ This Terraform project sets up a basic AWS infrastructure, including a VPC, Inte
 
 - `template.tpl`
   - User data template used by the EC2 instance for initial configuration.
-
-## Usage
-
-1. Update the values in the `08-variables` file to match your project requirements.
-2. Run `terraform init` to initialize your working directory.
-3. Run `terraform apply` to create the AWS infrastructure.
-4. Review the changes and confirm by entering "yes" when prompted.
-5. Once the infrastructure is created, find the public IP of the EC2 instance in the Terraform outputs.
-
-
+  - 
 
 # Terraform Deployment
 
@@ -104,9 +95,20 @@ This repository contains Terraform scripts for deploying infrastructure on AWS.
 
    Test Configuration > Should get Success
 
-   Save and close Jenkins, Nothing to do there anymore | browse the job index.html if you wish
+   Save and close Jenkins, Nothing to do there anymore | Browse the job `Webserver_index.html` if you wish
    
-10. **Change Index.html located in root folder**
-   
+10. **Final CI\CD using Jenkins**
+
+    Do some changes to Index.html located in root folder, Push and Commit :)
+
+    Check the web site for end result
+
+10. **Remove Evidence**
+    ```bash
+    cd AWS_IaC
+    ```
+    ```bash
+    terraform destroy
+    ```
 
     
