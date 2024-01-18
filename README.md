@@ -30,7 +30,7 @@ This Terraform project sets up a basic AWS infrastructure, including a VPC, Inte
 
 - `template.tpl`
   - User data template used by the EC2 instance for initial configuration.
-
+  - 
 
 # Terraform Deployment
 
