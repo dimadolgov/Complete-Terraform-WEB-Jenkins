@@ -89,7 +89,7 @@ This repository contains Terraform scripts for deploying infrastructure on AWS.
 
    Hostname : Web_Server_Public_IP
 
-   Username : ec2-user
+   Username : ec2-user 
   
    Remote Directory : /var/www/html/
 
