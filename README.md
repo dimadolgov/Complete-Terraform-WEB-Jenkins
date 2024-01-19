@@ -93,7 +93,7 @@ This repository contains Terraform scripts for deploying infrastructure on AWS.
   
    Remote Directory : /var/www/html/
 
-   Test Configuration > Should get Success
+   Test Configuration > Should get **Success**
 
    Save and close Jenkins, Nothing to do there anymore | Browse the job `Webserver_index.html` if you wish
    
