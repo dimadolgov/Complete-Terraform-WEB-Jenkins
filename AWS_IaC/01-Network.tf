@@ -12,7 +12,7 @@ resource "aws_internet_gateway" "internet_gateway" {
     Name = "Internet_Gateway-${var.project_name}"
   }
 }
-############################### Subnet + Route Table + Sssociation ###############################
+############################### Subnet + Route Table + Association ###############################
 # public subnets
 resource "aws_subnet" "public_subnet" {
   vpc_id                  = aws_vpc.main_vpc.id
