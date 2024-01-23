@@ -134,4 +134,7 @@ This repository contains Terraform scripts for deploying infrastructure on AWS.
     terraform destroy
     ```
 
-    
+11. Topology
+
+    ![image](https://github.com/dimadolgov/NICE/assets/90906120/b4e9ac9f-40b5-40e8-8953-47f0c6374df1)
+
