@@ -75,7 +75,7 @@ This repository contains Terraform scripts for deploying infrastructure on AWS.
 
 7. **Go to Jenkins Website:**
     ```bash
-    http://51.17.153.171:8080
+    http://IP:8080
     ```
 8. **One Time Configuration is needed in Jenkins**
    
