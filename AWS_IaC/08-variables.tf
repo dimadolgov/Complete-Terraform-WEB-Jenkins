@@ -1,6 +1,6 @@
 ######################## Main Project TAG ########################
 variable "project_name" {
-  default = "NICE"
+  default = "Project"
 }
 
 ######################## Network ########################
